@@ -1,0 +1,56 @@
+.black_title {
+    background-color: #000;
+    padding: 10px;
+    margin: 0;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+
+.checkmark-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.checkmark-box {
+    width: 300px;
+    height: 167px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Gilroy', sans-serif;
+    margin-top: 45px;
+    font-weight: 600;
+    display: flex;
+}
+
+.checkmark-box>img {
+    width: 51px;
+    height: 51px;
+}
+
+.checkmark-box>p {
+    margin-top: 3.5pc;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .checkmark-box {
+        width: 240px;
+        height: 167px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+    .checkmark-box {
+        width: 100%;
+    }
+
+    .checkmark_title {
+        font-size: small;
+    }
+
+}
